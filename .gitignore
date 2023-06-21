@@ -11,8 +11,11 @@
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
+!**/src/celsius_to_fahr/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+### CMAKE ###
+*.exe
