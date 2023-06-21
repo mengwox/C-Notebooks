@@ -19,3 +19,4 @@ build/
 
 ### CMAKE ###
 *.exe
+cmake-build-debug/
