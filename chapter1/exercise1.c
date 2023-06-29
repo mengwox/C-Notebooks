@@ -62,8 +62,6 @@ void copyInputFromOutPut() {
     }
 }
 
-void
-
 int main() {
 //    reverse_order();
 //    verifyEOF();
