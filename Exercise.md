@@ -23,3 +23,13 @@ more blanks by a single blank.
 Exercise 1-10. Write a program to copy its input to its output, replacing each tab by \t, each
 backspace by \b, and each backslash by \\. This makes tabs and backspaces visible in an
 unambiguous way
+
+Exercise 1-11. How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
+
+Exercise 1-12. Write a program that prints its input one word per line
+
+Exercise 1-13. Write a program to print a histogram of the lengths of words in its input. It is
+easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.
+
+Exercise 1-14. Write a program to print a histogram of the frequencies of different characters
+in its input
