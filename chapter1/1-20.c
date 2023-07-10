@@ -4,13 +4,12 @@
 //with the proper number of blanks to space to the next tab stop.
 //Assume a fixed set of tab stops, say every n columns.
 //Should n be a variable or a symbolic parameter?
+//todo 有待按answer调整改造
 #define MAX_LINE 1000
 
-int n;
+void detab(char []);
 
-void detab(char line[]);
-
-void getLine(char line[]);
+int getLine(char []);
 
 int main() {
     char line[MAX_LINE];
@@ -28,21 +27,23 @@ void detab(char line[]) {
 
     for (i = 0; (c = line[i]) != '\0'; i++) {
         if (c == '\t') {
-            //replace tab with blank
+            //replace tab with one number of blank
             line[i] = ' ';
         }
     }
 }
 
-void getLine(char line[]) {
+int getLine(char line[]) {
     int c;
-    int i;
+    int index;
 
-    for (i = 0; (c = getchar()) != EOF && c != '\n' && i < MAX_LINE - 1; i++) {
-        line[i] = (char) c;
+    for (index = 0; (c = getchar()) != EOF && c != '\n' && index < MAX_LINE - 1; index++) {
+        line[index] = (char) c;
     }
     if (c == '\n') {
-        line[i++] = (char) c;
+        line[index] = (char) c;
+        index++;
     }
-    line[i] = '\0';
+    line[index] = '\0';
+    return index;
 }

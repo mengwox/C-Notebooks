@@ -11,6 +11,7 @@ add_executable(1-17 chapter1/1-17.c)
 add_executable(1-18 chapter1/1-18.c)
 add_executable(1-18-improve1 chapter1/1-18-improve1.c)
 add_executable(1-18-answer.c chapter1/1-18-answer.c)
+add_executable(1-20-answer.c chapter1/1-20-answer.c)
 add_executable(1-19 chapter1/1-19.c)
 add_executable(1-20 chapter1/1-20.c)
 
