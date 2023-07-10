@@ -1,16 +1,17 @@
 #include "stdio.h"
 
 int power(int base, int n) {
-    int i, p;
+    int p;
 
-    p = 1;
-    for (i = 0; i < n; i++) {
+    for (p = 1; n > 0; n--) {
         p = p * base;
     }
     return p;
 }
 
 int main() {
-    printf("%d", power(2, 5));
+    int n = 5;
+    printf("%d\n", power(2, n));
+    printf("%d", n);
     return 0;
 }
