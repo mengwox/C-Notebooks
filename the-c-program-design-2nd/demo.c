@@ -1,6 +1,5 @@
-//
-// Created by Administrator on 2024/2/18.
-//
+d
+
 #include <stdio.h>
 
 int main() {

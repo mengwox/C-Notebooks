@@ -1,6 +1,3 @@
-//
-// Created by Administrator on 2023/7/10.
-//
 #include "stdio.h"
 
 #define MAX_LINE 1000

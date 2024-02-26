@@ -1,6 +1,3 @@
-//
-// Created by Administrator on 2024/2/19.
-//
 #include <stdio.h>
 
 #define IN 1
