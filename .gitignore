@@ -20,3 +20,6 @@ build/
 ### CMAKE ###
 *.exe
 cmake-build-debug/
+
+### obsidian###
+.obsidian
