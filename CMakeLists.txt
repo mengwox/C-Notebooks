@@ -24,5 +24,7 @@ add_executable(Chapter-1-7 chapter1/Chapter-1-7.c)
 add_executable(Chapter-1-9 chapter1/Chapter-1-9.c)
 add_executable(Chapter-1-10 chapter1/Chapter-1-10.c)
 
-add_executable(demo the-c-program-design-2nd/exercise1-6-arrays.c)
+add_executable(example the-c-program-design-2nd/example/chapter1/1-10-external.c)
+add_executable(solution the-c-program-design-2nd/chapter1/1-19.c
+        the-c-program-design-2nd/example/chapter1/external-const.h)
 # 如果需要链接额外的库，请在此处添加链接命令
