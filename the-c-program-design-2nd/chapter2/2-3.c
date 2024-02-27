@@ -21,16 +21,13 @@ int htoi(char s[]) {
     int res, i;
     char c;
     res = 0;
-    for (i = 0;; i++) {
-        c = s[i];
+    for (i = 0; (c = s[i]) != '\0'; i++) {
         if (c >= 'a' && c <= 'f') {
             res += power(16, i) * (c + 10 - 'a');
         } else if (c >= 'A' && c <= 'F') {
             res += power(16, i) * (c + 10 - 'A');
         } else if (c >= '0' && c <= '9') {
             res += power(16, i) * (c - '0');
-        } else {
-            break;
         }
     }
     return res;
@@ -38,6 +35,7 @@ int htoi(char s[]) {
 
 /**
  * 求n的exp次方
+ *
  * @param n 底
  * @param exp 幂次
  * @return n的exp次方
